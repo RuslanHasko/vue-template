@@ -1,12 +1,19 @@
 <template>
-  <div>
-    Hello
+  <div class="component-root">
+    <h2>Welcome to my test page</h2>
+    <button @click="show = true">Show</button>
+    <p v-show="show">Hello Nightwatch!</p>
   </div>
 </template>
 
 <script>
   export default {
-    name: 'home'
+    name: 'home',
+    data () {
+      return {
+        show: false
+      }
+    }
   }
 </script>
 
