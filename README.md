@@ -1,5 +1,4 @@
 # Boilerplate for Vue.js
-===================
 
 > Includes
 - Vue
